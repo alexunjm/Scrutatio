@@ -1,20 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/default/layout"
-import Image from "../components/default/image"
 import SEO from "../components/default/seo"
+import JSONAtBuildTime from "../components/default/json-at-buildtime"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h2>Hi brothers</h2>
+    <p>Welcome to your own dialogue with God.</p>
+    <p>Now go write and listen some great words that Lord arouses within us.</p>
+    <JSONAtBuildTime />
   </Layout>
 )
 
